@@ -234,7 +234,7 @@ li {
 }
 
 .webstack:nth-child(3) {
-	background-color:#D3FFFF;
+	background-color:##1D4949;
 	background-image:url("../images/Day3.png");
 }
 
@@ -355,13 +355,13 @@ footer {
  box-shadow: 0 24px 36px rgba(15,28,112, .3);
 }
 
-a:nth-child(2) .webstack {
+.webstack:nth-child(2){
+	transition: all 0.3s ease-out;
 	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
 }
 
 .webstack:nth-child(2):hover {
-transition: all 0.3s ease-out;
- transform: translateY(-10px) scale(1.005) translateZ(0);
+  transform: translateY(-10px) scale(1.005) translateZ(0);
   box-shadow: 0 24px 36px #7B82B2;
 }
 
@@ -371,7 +371,7 @@ transition: all 0.3s ease-out;
 }
 
 .webstack:nth-child(3):hover {
- transform: translateY(-10px) scale(1.005) translateZ(0);
+  transform: translateY(-10px) scale(1.005) translateZ(0);
   box-shadow: 0 24px 36px rgba(75, 75, 75, .3);
 }
 
