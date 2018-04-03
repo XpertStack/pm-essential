@@ -79,8 +79,6 @@ a:visited {
 
 .photo-resize {
 	padding-top:22px;
-	height:63px;
-	width:63px;
 }
 .stack{
 	display:flex;
@@ -230,7 +228,7 @@ li {
 }
 
 .webstack:nth-child(2) {
-	background-color:#0f1c70;
+	background-color:#d7e9ff;
 	background-image:url("../images/Day2.png");
 }
 
