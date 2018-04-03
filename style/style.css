@@ -231,39 +231,37 @@ li {
 
 .webstack:nth-child(2) {
 	background-color:#0f1c70;
-	background-image:url("../images/2/blog.png");
-	display:block;
+	background-image:url("../images/Day2.png");
 }
 
 .webstack:nth-child(3) {
 	background-color:#D3FFFF;
-	background-image:url("../images/3/pro.png");
+	background-image:url("../images/Day3.png");
 }
 
 .webstack:nth-child(4) {
 	background-color:#307bf1;
-	background-image:url("../images/4/books.png");
+	background-image:url("../images/Day4.png");
 }
 
 .webstack:nth-child(5) {
 	background-color:#fbc856;
-	background-image:url("../images/5/skill.png");
+	background-image:url("../images/Day5.png");
 }
 
 .webstack:nth-child(6) {
 	background-color:#FDD9B1;
-	background-image:url("../images/6/reading.png");
-	background-size:50%;
+	background-image:url("../images/Day6.png");
 }
 
 .webstack:nth-child(7) {
 	background-color:#fcf7f7;
-	background-image:url("../images/7/opensource.png");
+	background-image:url("../images/Day7.png");
 }
 
 .webstack:nth-child(8) {
 	background-color:#FF6C60;
-	background-image:url("../images/8/youtube.png");
+	background-image:url("../images/Day8.png");
 }
 
 footer {
