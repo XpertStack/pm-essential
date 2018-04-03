@@ -79,6 +79,7 @@ a:visited {
 
 .photo-resize {
 	padding-top:22px;
+	width:100px;
 }
 .stack{
 	display:flex;
