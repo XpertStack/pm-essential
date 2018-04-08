@@ -249,12 +249,12 @@ li {
 }
 
 .webstack:nth-child(6) {
-	background-color:#FDD9B1;
+	background-color:#d3d4b3;
 	background-image:url("../images/Day6.png");
 }
 
 .webstack:nth-child(7) {
-	background-color:#fcf7f7;
+	background-color:#eadddd;
 	background-image:url("../images/Day7.png");
 }
 
