@@ -234,7 +234,7 @@ li {
 }
 
 .webstack:nth-child(3) {
-	background-color:##1D4949;
+	background-color:#A5A9CB;
 	background-image:url("../images/Day3.png");
 }
 
@@ -259,7 +259,17 @@ li {
 }
 
 .webstack:nth-child(8) {
-	background-color:#FF6C60;
+	background-color:#FFA0B9;
+	background-image:url("../images/Day8.png");
+}
+
+.webstack:nth-child(9) {
+	background-color:#B9D0F2;
+	background-image:url("../images/Day8.png");
+}
+
+.webstack:nth-child(10) {
+	background-color:#89B8FE;
 	background-image:url("../images/Day8.png");
 }
 
@@ -424,7 +434,27 @@ footer {
 
 .webstack:nth-child(8):hover {
  transform: translateY(-10px) scale(1.005) translateZ(0);
- box-shadow: 0 24px 36px #FF4545;
+ box-shadow: 0 24px 36px #FFA1A1;
+}
+
+.webstack:nth-child(9){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(9):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #AEAEAE;
+}
+	
+.webstack:nth-child(10){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(10):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #464646;
 }
 
 .stack {
