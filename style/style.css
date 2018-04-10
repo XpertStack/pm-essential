@@ -265,7 +265,7 @@ li {
 }
 
 .webstack:nth-child(9) {
-	background-color:#B9D0F2;
+	background-color:#d4d2d5;
 	background-image:url("../images/Day8.png");
 }
 
@@ -445,7 +445,7 @@ footer {
 
 .webstack:nth-child(9):hover {
  transform: translateY(-10px) scale(1.005) translateZ(0);
- box-shadow: 0 24px 36px #E7F0FA;
+ box-shadow: 0 24px 36px #878688;
 }
 	
 .webstack:nth-child(10){
