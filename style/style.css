@@ -12,6 +12,7 @@ a {
 a:hover {
 	color:#4B4B4B;
 }
+
 a:visited {
 	color:#4B4B4B;
 
@@ -444,7 +445,7 @@ footer {
 
 .webstack:nth-child(9):hover {
  transform: translateY(-10px) scale(1.005) translateZ(0);
- box-shadow: 0 24px 36px #AEAEAE;
+ box-shadow: 0 24px 36px #E7F0FA;
 }
 	
 .webstack:nth-child(10){
