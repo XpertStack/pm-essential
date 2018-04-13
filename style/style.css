@@ -272,6 +272,26 @@ li {
 	background-color:#30E3CA;
 	background-image:url("../images/Day10.png");
 }
+.webstack:nth-child(11) {
+	background-color:#ad65d6;
+	background-image:url("../images/Day11.png");	
+}
+.webstack:nth-child(12) {
+	background-color:#d1ff82;
+	background-image:url("../images/Day12.png");
+}
+.webstack:nth-child(13) {
+	background-color:#ffa154;
+	background-image:url("../images/Day13.png");
+}
+.webstack:nth-child(14) {
+	background-color:#30E3CA;
+	background-image:url("../images/Day14.png");
+}
+.webstack:nth-child(15) {
+	background-color:#30E3CA;
+	background-image:url("../images/Day15.png");
+}
 
 footer {
 	height:150px;
@@ -456,6 +476,37 @@ footer {
  transform: translateY(-10px) scale(1.005) translateZ(0);
  box-shadow: 0 24px 36px #219E8E;
 }
+
+.webstack:nth-child(11){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(11):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #7830A1;
+}
+	
+.webstack:nth-child(12){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(12):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #5B890C;
+}
+	
+.webstack:nth-child(13){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(13):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #BA743C;
+}
+	
 
 .stack {
 	transition: all 0.3s ease-out;
