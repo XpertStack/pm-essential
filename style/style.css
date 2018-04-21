@@ -305,8 +305,12 @@ li {
 	background-image:url("../images/Day18.png");
 }
 .webstack:nth-child(19) {
-	background-color:#ebc5a5;
+	background-color:#bbded6;
 	background-image:url("../images/Day19.png");
+}
+.webstack:nth-child(20) {
+	background-color:#f9f5ce;
+	background-image:url("../images/Day20.png");
 }
 footer {
 	height:150px;
@@ -579,9 +583,19 @@ footer {
 
 .webstack:nth-child(19):hover {
  transform: translateY(-10px) scale(1.005) translateZ(0);
- box-shadow: 0 24px 36px #df9f69;
+ box-shadow: 0 24px 36px #9BB8B2;
 }
 
+.webstack:nth-child(20){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(20):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #D5D1B0;
+}
+	
 .stack {
 	transition: all 0.3s ease-out;
 }
