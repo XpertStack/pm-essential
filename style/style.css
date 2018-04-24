@@ -316,6 +316,15 @@ li {
 	background-color:#e1dcdf;
 	background-image:url("../images/Day21.png");
 }
+.webstack:nth-child(22) {
+	background-color:#e4eddb;
+	background-image:url("../images/Day22.png");
+}
+
+.webstack:nth-child(23) {
+	background-color:#F1EFE9;
+	background-image:url("../images/Day23.png");
+}
 footer {
 	height:150px;
 	background-color:#FAFAFA;
@@ -609,8 +618,26 @@ footer {
  transform: translateY(-10px) scale(1.005) translateZ(0);
  box-shadow: 0 24px 36px #b9b5b7;
 }
-	
 
+.webstack:nth-child(22){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(22):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #B4BAAB;
+}
+
+.webstack:nth-child(23){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(23):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #E2DED3;
+}
 .stack {
 	transition: all 0.3s ease-out;
 }
