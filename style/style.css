@@ -329,6 +329,10 @@ li {
 	background-color:#F1EFE9;
 	background-image:url("../images/Day23.png");
 }
+.webstack:nth-child(24) {
+	background-color:#fad0cf;
+	background-image:url("../images/Day24.png");
+}
 footer {
 	height:150px;
 	background-color:#FAFAFA;
@@ -642,6 +646,17 @@ footer {
  transform: translateY(-10px) scale(1.005) translateZ(0);
  box-shadow: 0 24px 36px #E2DED3;
 }
+	
+.webstack:nth-child(24){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(24):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #D4B0AF;
+}
+
 .stack {
 	transition: all 0.3s ease-out;
 }
