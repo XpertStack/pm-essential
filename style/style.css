@@ -337,7 +337,10 @@ li {
 	background-color:#b9edea;
 	background-image:url("../images/Day25.png");
 }
-
+.webstack:nth-child(26) {
+	background-color:#FFFDEA;
+	background-image:url("../images/Day26.png");
+}
 footer {
 	height:150px;
 	background-color:#FAFAFA;
@@ -672,6 +675,15 @@ footer {
  box-shadow: 0 24px 36px #9DC9C6;
 }
 
+.webstack:nth-child(26){
+	box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	transition: all 0.3s ease-out;
+}
+
+.webstack:nth-child(26):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+ box-shadow: 0 24px 36px #DED3C0;
+}
 
 .stack {
 	transition: all 0.3s ease-out;
